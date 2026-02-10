@@ -2306,13 +2306,25 @@ progress {
     font-size: 1.4rem;
     text-align: left;
     margin-top: 2rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 
   }
   h1.text-white.text-center.display-5 {
     text-align: center;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
-  .lead.text-white.text-center-hero-p1 {
+  p.lead.text-white.text-center-hero-p1 {
     margin-bottom: 2rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
   .about-us-description.text-center.hero-p1 {
     display: none;
@@ -2324,7 +2336,7 @@ progress {
     padding-top: 0px;
   }
   div.landing-page {
-    min-height: 183vh;
+    min-height: 198vh;
     margin-bottom: 2rem;
   }
   h2.m-0 {
