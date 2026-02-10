@@ -2320,7 +2320,7 @@ progress {
     margin-right: 0 !important;
   }
   p.lead.text-white.text-center.hero-p1 {
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     padding-left: 1.65rem !important;
     padding-right: 1.65rem !important;
     margin-left: 0 !important;
@@ -2329,9 +2329,7 @@ progress {
   .about-us-description.text-center.hero-p1 {
     display: none;
   }
-  div.divider {
-    display: none;
-  }
+ 
   .p-container{
     padding-top: 0px;
   }
