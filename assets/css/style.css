@@ -2292,9 +2292,57 @@ progress {
 }
 
 @media (max-width: 575.98px) {
+  div.left-closer {
+    padding-left: 0;   /* smaller padding */
+    
+    
+  }
+  .about-us-description {
+    text-align: center;
+    padding-top: 10px;
+      
+    }
+  p.about-us-content {
+    font-size: 1.4rem;
+    text-align: left;
+    margin-top: 2rem;
+
+  }
+  h1.text-white.text-center.display-5 {
+    text-align: center;
+  }
+  .lead.text-white.text-center-hero-p1 {
+    margin-bottom: 2rem;
+  }
+  .about-us-description.text-center.hero-p1 {
+    display: none;
+  }
+  div.divider {
+    display: none;
+  }
+  .p-container{
+    padding-top: 0px;
+  }
+  div.landing-page {
+    min-height: 183vh;
+    margin-bottom: 2rem;
+  }
+  h2.m-0 {
+    text-align: center;
+  }
+  h4.text-white.mb-2.mb-md-0 {
+    text-align: center;
+  }
   .table-responsive-sm {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+  }
+  a.btn.btn-primary.mb-0 {
+    display: block;
+    margin: 0 auto;
+  }
+  h5 {
+    text-align: center;
   }
 }
 @media (max-width: 767.98px) {
