@@ -181,6 +181,63 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+div.border.rounded.p-4.mb-5.diy {
+  display: none;
+}
+div.landing-page.drought-resistant-irrigation {
+  min-height: 114vh;
+}
+.brand img {
+    width: 120px;    /* change this to whatever size you want */
+    max-width: 100%; /* ensures it never overflows the container */
+    height: auto;    /* keeps aspect ratio */
+    margin-bottom: 1rem;
+}
+div.col-sm-6.col-lg-2.mb-4.hide {
+    display: none;
+  }
+iframe.w-100.h-300.grayscale {
+    margin-bottom: 2rem;
+  }
+  aside.col-xl-4.col-xxl-3 {
+    display: none;
+  }
+  form.row.g-2.g-xl-4.mb-4 {
+    display: none;
+  }
+  a.nav-link.px-2.fs-5 {
+    display: none;
+  }
+  a.nav-link.ps-2.pe-0 {
+    display: none;
+  }
+  p.rights-reserved {
+    margin-bottom: 2rem;
+  }
+ 
+
+
+section.bg-primary.text-white.py-5 {
+  margin-top: 2rem;
+}
+div.landing-page.index {
+  min-height: 124vh;
+  margin-bottom: 2rem;
+}
+
+div.rounded-2.bg-dark-overlay-5.overflow-hidden.p-4.p-md-5.promo-banner {
+  background-image: url("assets/images/save-up-to.png");
+  background-size: contain;      /* shows full image */
+  background-position: center;   /* centers image */
+  background-repeat: no-repeat;  /* prevents tiling */
+  background-size: 10px;
+}
+[data-sticky] {
+  position: sticky;
+  top: 80px; /* matches your data-margin-top */
+  width: 100%; /* ensures it stays within its column */
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -2354,30 +2411,158 @@ progress {
   h5 {
     text-align: center;
   }
+  h1.display-5.fw-bold {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  h2.fw-bold {
+    
+    text-align: center;
+  }
+  
+  h3.fw-bold {
+    text-align: center;
+  }
+  p.lead.text-white.text-center.hero-p1 {
+    line-height: 1.2; /*tigheter lines for smaller screens */
+    font-size: 16px; 
+    word-spacing: normal;
+    text-align: center;
+  }
+  button.get-started-button {
+    margin-bottom: 2rem;
+  }
+  div.landing-page.irrigation-timer-services {
+    min-height: 174vh;
+  }
+  div.landing-page.drought-resistant-irrigation {
+    min-height: 264vh;
+  }
+  h1.text-white.text-center.display-5 {
+    text-align: center;
+  }
+  li.about-us-content {
+    font-size: 1.1rem;
+    text-align: left;
+    margin-top: 2rem;
+    padding-left: 1.65rem !important;
+    padding-right: 1.65rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  div.landing-page.irrigation-leak-repair {
+    min-height: 134vh;
+  }
+  li.about-us-content.hero-p1 {
+    
+    line-height: 41.9px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  div.mb-5.diy {
+    display: none;
+  }
+  div.border.rounded.p-4.mb-5.diy {
+    display: none;
+  }
+  div.landing-page.drip-irrigation-system {
+    min-height: 124vh;
+  }
+  div.landing-page.sprinkler-head-services {
+    min-height: 154vh;
+  }
+  div.col-sm-6.col-lg-2.mb-4.hide {
+    display: none;
+  }
+  .phone-number {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+}
+  .footer-services ul li {
+    list-style: none;
+    padding-left: 0;
+  }
+  .footer-services ul {
+    padding-left: 0;
+    margin-left: 0;
+  }
+  
+  .brand img {
+    width: 120px;    /* change this to whatever size you want */
+    max-width: 100%; /* ensures it never overflows the container */
+    height: auto;    /* keeps aspect ratio */
+    margin-bottom: 1rem;
+}
+.rights-reserved {
+  margin-top: 2rem;
+}
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  
+  
 }
 @media (max-width: 991.98px) {
   .table-responsive-lg {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .full-width-bg {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+  .center-text {
+    text-align: center;
+    margin-left: -261px;
+    padding-left:0px;
+  }
+   div.mb-5.diy {
+    display: none;
+  }
+  div.border.rounded.p-4.mb-5.diy {
+    display: none;
+  }
+  div.col-sm-6.col-lg-2.mb-4.hide {
+    display: none;
+  }
+  .brand img {
+    width: 120px;    /* change this to whatever size you want */
+    max-width: 100%; /* ensures it never overflows the container */
+    height: auto;    /* keeps aspect ratio */
+    margin-bottom: 1rem;
+    
+}
+ 
+
+  .hero-p1 {
+    max-width: 700px; /* prevents text from stretching too wide */
+    
+    
+    margin-left: 40px;
+  }
+
+  
 }
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  
 }
 @media (max-width: 1399.98px) {
   .table-responsive-xxl {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  
 }
 .form-label {
   margin-bottom: 0.5rem;
@@ -4549,6 +4734,7 @@ textarea.form-control-lg {
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
+  
   .navbar-expand-md .navbar-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -11533,6 +11719,7 @@ textarea.form-control-lg {
   .text-md-center {
     text-align: center !important;
   }
+  
 }
 @media (min-width: 992px) {
   .float-lg-start {

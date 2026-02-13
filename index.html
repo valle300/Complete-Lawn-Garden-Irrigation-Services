@@ -69,7 +69,7 @@
 	</script>
 
 	<!-- Favicon -->
-	<link rel="shortcut icon" href="assets/images/favicon.ico">
+	<link rel="shortcut icon" href="assets/images/logo5.png">
 
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -98,7 +98,7 @@
 			<div class="row g-3">
 				<!-- Image -->
 				<div class="col-3">
-					<img class="rounded-2 bg-light p-2" src="assets/images/shop/02.png" alt="avatar">
+					<img class="rounded-2 bg-light p-2" src="assets/images/logo5.png" alt="avatar">
 				</div>
 
 				<div class="col-6">
@@ -136,10 +136,128 @@
 
 <!-- =======================
 Header START -->
+<header class="navbar-light navbar-sticky header-static">
+    <div class="navbar-top d-none d-lg-block small">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center my-2">
+                
 
+                <!-- Top bar right -->
+                <div class="d-flex align-items-center ms-auto">
+                    <!-- Font size accessibility START -->
+                    <div class="btn-group me-3" role="group" aria-label="font size changer">
+                        <input type="radio" class="btn-check" name="fntradio" id="font-sm">
+                        <label class="btn btn-xs btn-outline-primary mb-0" for="font-sm">A-</label>
+
+                        <input type="radio" class="btn-check" name="fntradio" id="font-default" checked>
+                        <label class="btn btn-xs btn-outline-primary mb-0" for="font-default">A</label>
+
+                        <input type="radio" class="btn-check" name="fntradio" id="font-lg">
+                        <label class="btn btn-xs btn-outline-primary mb-0" for="font-lg">A+</label>
+                    </div>
+                    <!-- Font size accessibility END -->
+
+                    <!-- Dark mode options START -->
+                    <div class="nav-item dropdown mx-2">
+                        <button class="modeswitch" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
+                            <svg class="theme-icon-active"><use href="#"></use></svg>
+                        </button>
+                        <ul class="dropdown-menu min-w-auto dropdown-menu-end" aria-labelledby="bd-theme">
+                            <li>
+                                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">Light</button>
+                            </li>
+                            <li>
+                                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">Dark</button>
+                            </li>
+                            <li>
+                                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">Auto</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Dark mode options END -->
+
+                    <!-- Social icons -->
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link px-2 fs-5" href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li class="nav-item"><a class="nav-link px-2 fs-5" href="#"><i class="fab fa-twitter-square"></i></a></li>
+                        <li class="nav-item"><a class="nav-link px-2 fs-5" href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li class="nav-item"><a class="nav-link px-2 fs-5" href="#"><i class="fab fa-youtube-square"></i></a></li>
+                        <li class="nav-item"><a class="nav-link ps-2 pe-0 fs-5" href="#"><i class="fab fa-vimeo"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Divider -->
+            <div class="border-bottom border-2 border-primary opacity-1"></div>
+        </div>
+    </div>
+
+    <!-- Logo Nav START -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo START -->
+            <a class="navbar-brand" href="index.html">
+                <img class="navbar-brand-item light-mode-item" src="assets/images/logo5.png" alt="logo">			
+                <img class="navbar-brand-item dark-mode-item" src="assets/images/logo5.png" alt="logo">			
+            </a>
+            <!-- Logo END -->
+
+            <!-- Responsive navbar toggler -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="text-body h6 d-none d-sm-inline-block">Menu</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Main navbar START -->
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav navbar-nav-scroll mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="servicesMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesMenu">
+                            <li><a class="dropdown-item" href="irrigation-leak-repair.html">Irrigation Leak Repair</a></li>
+                            <li><a class="dropdown-item" href="sprinkler-head-services.html">Sprinkler Head Services</a></li>
+                            <li><a class="dropdown-item" href="sprinkler-valve-services.html">Sprinkler Valve Services</a></li>
+                            <li><a class="dropdown-item" href="irrigation-timer-services.html">Irrigation Timer Services</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="sprinkler-system-services.html">Sprinkler System Services</a></li>
+                            <li><a class="dropdown-item" href="lawn-installation-irrigation.html">Lawn Installation & Irrigation</a></li>
+                            <li><a class="dropdown-item" href="drip-irrigation-system.html">Drip Irrigation System</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="drought-resistant-irrigation.html">Drought Resistant Irrigation</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="serviceAreasMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Service Areas</a>
+                        <ul class="dropdown-menu" aria-labelledby="serviceAreasMenu">
+                            <li><a class="dropdown-item" href="https://www.pomonaca.gov/">Pomona</a></li>
+                            <li><a class="dropdown-item" href="https://www.uplandca.gov/">Upland</a></li>
+                            <li><a class="dropdown-item" href="https://www.claremontca.gov/Home">Claremont</a></li>
+                            <li><a class="dropdown-item" href="https://www.cityofchino.org/">Chino</a></li>
+                            <li><a class="dropdown-item" href="https://www.cityofmontclair.org/">Montclair</a></li>
+                            <li><a class="dropdown-item" href="https://www.cityofrc.us/">Rancho Cucamonga</a></li>
+                            <li><a class="dropdown-item" href="https://www.westcovina.gov/">West Covina</a></li>
+                            <li><a class="dropdown-item" href="https://www.lahabraca.gov/">La Habra</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Main navbar END -->
+
+           
+
+        </div>
+    </nav>
+    <!-- Logo Nav END -->
 </header>
 <!-- =======================
 Header END -->
+
 
 <!-- **************** MAIN CONTENT START **************** -->
 <main>
@@ -153,15 +271,15 @@ Main START -->
 
 <!-- =======================
 Inner intro START -->
-<div class="landing-page  " style="background-image: url(https://cdn.pixabay.com/photo/2017/07/13/08/59/greenhouse-2499758_1280.jpg); background-position: center left; ">
+<div class="landing-page index " style="background-image: url(https://cdn.pixabay.com/photo/2017/07/13/08/59/greenhouse-2499758_1280.jpg); background-position: center left; ">
 	<div class="white-t content text-white ">
 	<div class="container-fluid ">
 		<div class="row lower-content ">
 			<div class="col-lg-4 py-md-5 my-lg-5 left-closer">
-				<br><br><br><br><br>
-				<h1 class="text-white text-center display-5">Welcome To <br> Valle Landscape</h1>
+				
+				<h1 class="text-white text-center display-5">Welcome To Valle Landscape</h1>
 
-				<div class="divider  ">
+				<div class="divider">
 
 				</div>
         <p class="lead text-white text-center hero-p1">Where Green Meets Serenity</p>
@@ -195,296 +313,36 @@ Inner intro START -->
 <!-- =======================
 Inner intro END -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section class="pt-3 pt-lg-5">
-	<div class="container">
+<section>
+	<div class="container position-relative" data-sticky-container>
 		<div class="row">
-      <!-- Title -->
-      <div class="mb-4">
-        <h2 class="m-0">Complete Lawn & Garden Irrigation Services</h2>
-      </div>
-			
-			<!-- Filter START -->
-			<aside class="col-xl-4 col-xxl-3">
-				<!-- Responsive offcanvas body START -->
-				<div class="offcanvas-xl offcanvas-end" tabindex="-1" id="offcanvasSidebar" aria-labelledby="offcanvasSidebarLabel">
-					<div class="offcanvas-header bg-light">
-						<h5 class="offcanvas-title" id="offcanvasSidebarLabel">Advance Filter</h5>
-						<button  type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasSidebar" aria-label="Close"></button>
-					</div>
-					<div class="offcanvas-body flex-column p-3 p-xl-0">
-						<form class="border rounded-2">
-							<!-- Availability START -->
-							<div class="card card-body">	
-								<!-- Title -->
-								<h6 class="mb-3">Availability</h6>
-
-								<!-- Availability group -->
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
-									<label class="form-check-label" for="flexRadioDefault1">
-										All
-									</label>
-								</div>
-								<div class="form-check">
-									<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-									<label class="form-check-label" for="flexRadioDefault2">
-										On Stock Only
-									</label>
-								</div>
-							</div>
-							<!-- Availability END -->
-
-							<hr class="my-0"> <!-- Divider -->
-
-							<!-- Offer type START -->
-							<div class="card card-body">	
-								<!-- Title -->
-								<h6 class="mb-3">Offer Type</h6>
-
-								<!-- Checkbox -->
-								<div class="form-check">
-									<input class="form-check-input" type="checkbox" value="" id="amenitiesType1">
-									<label class="form-check-label" for="amenitiesType1">Product in Sale Only</label>
-								</div>
-								<!-- Checkbox -->
-								<div class="form-check">
-									<input class="form-check-input" type="checkbox" value="" id="amenitiesType2">
-									<label class="form-check-label" for="amenitiesType2">Recommended Only</label>
-								</div>
-							</div>
-							<!-- Offer type END -->
-
-							<hr class="my-0"> <!-- Divider -->
-
-							<!-- Brands START -->
-							<div class="card card-body">
-								<!-- Title -->
-								<h6 class="mb-2">Brands</h6>
-								<!-- Amenities group -->
-								<div class="col-12">
-									
-									<!-- Checkbox -->
-									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="amenitiesType11">
-										<label class="form-check-label" for="amenitiesType11">Shimano</label>
-									</div>
-									<!-- Checkbox -->
-									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="amenitiesType12">
-										<label class="form-check-label" for="amenitiesType12">Shimano SSC</label>
-									</div>
-									<!-- Checkbox -->
-									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="amenitiesType13">
-										<label class="form-check-label" for="amenitiesType13">Pearl Izumi</label>
-									</div>
-									<!-- Checkbox -->
-									<div class="form-check">
-										<input class="form-check-input" type="checkbox" value="" id="amenitiesType14">
-										<label class="form-check-label" for="amenitiesType14">Pro</label>
-									</div>
-									
-									<!-- Collapse body -->
-									<div class="multi-collapse collapse" id="amenitiesCollapes">
-										<!-- Checkbox -->
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="amenitiesType15">
-											<label class="form-check-label" for="amenitiesType15">Wizxo</label>
-										</div>
-										<!-- Checkbox -->
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="amenitiesType16">
-											<label class="form-check-label" for="amenitiesType16">Orange Casidy</label>
-										</div>
-										<!-- Checkbox -->
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="amenitiesType17">
-											<label class="form-check-label" for="amenitiesType17">Hair nets</label>
-										</div>
-										<!-- Checkbox -->
-										<div class="form-check">
-											<input class="form-check-input" type="checkbox" value="" id="amenitiesType18">
-											<label class="form-check-label" for="amenitiesType18">Masks</label>
-										</div>
-									</div>
-									<!-- Collapse button -->
-									<a class="p-0 mb-0 mt-2 btn-more d-flex align-items-center collapsed" data-bs-toggle="collapse" href="#amenitiesCollapes" role="button" aria-expanded="false" aria-controls="amenitiesCollapes">
-										See <span class="see-more ms-1">more</span><span class="see-less ms-1">less</span><i class="fas fa-angle-down ms-2"></i>
-									</a>
-								</div>
-							</div>
-							<!-- Brands END -->
-
-							<hr class="my-0"> <!-- Divider -->
-
-							<!-- Rating Star START -->
-							<div class="card card-body">
-								<!-- Title -->
-								<h6 class="mb-2">Rating Star</h6>
-								<!-- Rating Star group -->
-								<ul class="list-inline mb-0 g-3">
-									<!-- Item -->
-									<li class="list-inline-item mb-0">
-										<input type="checkbox" class="btn-check" id="btn-check-6">
-										<label class="btn btn-sm btn-light btn-primary-soft-check" for="btn-check-6">1<i class="bi bi-star-fill"></i></label>
-									</li>
-									<!-- Item -->
-									<li class="list-inline-item mb-0">
-										<input type="checkbox" class="btn-check" id="btn-check-7">
-										<label class="btn btn-sm btn-light btn-primary-soft-check" for="btn-check-7">2<i class="bi bi-star-fill"></i></label>
-									</li>
-									<!-- Item -->
-									<li class="list-inline-item mb-0">
-										<input type="checkbox" class="btn-check" id="btn-check-8">
-										<label class="btn btn-sm btn-light btn-primary-soft-check" for="btn-check-8">3<i class="bi bi-star-fill"></i></label>
-									</li>
-									<!-- Item -->
-									<li class="list-inline-item mb-0">
-										<input type="checkbox" class="btn-check" id="btn-check-15">
-										<label class="btn btn-sm btn-light btn-primary-soft-check" for="btn-check-15">4<i class="bi bi-star-fill"></i></label>
-									</li>
-									<!-- Item -->
-									<li class="list-inline-item mb-0">
-										<input type="checkbox" class="btn-check" id="btn-check-16">
-										<label class="btn btn-sm btn-light btn-primary-soft-check" for="btn-check-16">5<i class="bi bi-star-fill"></i></label>
-									</li>
-								</ul>
-							</div>
-							<!-- Rating Star END -->
-						</form><!-- Form End -->
-					</div>
-					<!-- Buttons -->
-					<div class="d-flex justify-content-between p-2 p-xl-0 mt-xl-3">
-						<button class="btn btn-link p-0 mb-0">Clear all</button>
-						<button class="btn btn-primary mb-0">Filter Result</button>
-					</div>
-				</div>
-				<!-- Responsive offcanvas body END -->
-			</aside>
-			<!-- Filter END -->
-
-			<!-- Main part START -->
-			<div class="col-xl-9">
-
-				<!-- Search filter START -->
-				<form class="row g-2 g-xl-4 mb-4">
-					<!-- Search -->
-					<div class="col-xl-6">
-            <div class="rounded position-relative">
-							<input class="form-control pe-5" type="search" placeholder="Search products by name or keyword..." aria-label="Search">
-							<button class="btn bg-transparent border-0 px-2 py-0 position-absolute top-50 end-0 translate-middle-y" type="submit"><i class="bi bi-search fs-5"> </i></button>
-						</div>
-					</div>
-
-					<!-- Select -->
-					<div class="col-md-4 col-xl-3">
-						<select class="form-select" aria-label="Default select example">
-							<option selected>Filter</option>
-							<option value="1">T-shirts</option>
-							<option value="2">Shoes</option>
-							<option value="3">Tracking bags</option>
-						</select>
-					</div>
-
-					<!-- Select -->
-					<div class="col-md-4 col-xl-3">
-						<select class="form-select" aria-label="Default select example">
-							<option selected>Sort by</option>
-							<option value="1">Name</option>
-							<option value="2">Low to High Price</option>
-							<option value="3">Heigh to Low Price</option>
-						</select>
-					</div>
-
-          <div class="col-md-4 col-xl-3 d-grid d-xl-none">
-            <!-- Filter offcanvas button -->
-						<button class="btn btn-primary-soft btn-primary-check mb-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
-							<i class="fas fa-sliders-h me-1"></i> Show filter
-						</button>
-          </div>
-				</form>
-				<!-- Search filter END -->
-
-				<!-- Product START -->
+<div class="<div class="col-12 mb-5">">
+<!-- Product START -->
 				<div class="row g-4">
 
-					<!-- Adv START -->
-					<div class="col-12">
-						<div class="rounded-2 bg-dark-overlay-5 overflow-hidden p-4 p-md-5" style="background-image: url(https://cdn.pixabay.com/photo/2017/07/13/08/59/greenhouse-2499758_1280.jpg); background-position: center left; ">
-							<div class="d-md-flex justify-content-between align-items-center">
-								<h4 class="text-white mb-2 mb-md-0">Save up to 10% with orders above $100</h4>
-								<a href="#" class="btn btn-primary mb-0">Call Now</a>
-							</div>
-						</div>
-					</div>
-					<!-- Adv END -->
+					
 
 					<!-- Product item START -->
 					<div class="col-sm-6 col-md-4">
 						<div class="card border p-3 h-100">
-							
+							<div class="position-relative">
+								<!-- Image -->
+								<a href="irrigation-leak-repair.html" class="position-relative z-index-9"><img class="card-img" src="assets/images/irrigation-leak-repair.jpg" alt=""></a>
+								
+							</div>
 		
 							<!-- Card body -->
 							<div class="card-body text-center p-3 px-0">
-								<!-- Badge and price -->
-								<br><br><br><br>
+								
 								<!-- Title -->
-								<h5 class="card-title"><a href="shop-detail.html">Sprinkler System Services</a></h5><br>
-								<h6 class="mb-0 text-success">Complete sprinkler system installation, repair, and maintenance for residential lawns.
-                        </h6>
+								<h5 class="card-title"><a href="irrigation-leak-repair.html">Irrigation Leak Repair</a></h5>
+								<h6 class="mb-0 text-success">Installation, repair, and troubleshooting of irrigation timers and smart controllers.</h6>
 							</div>
 		
 							<!-- Card footer -->
 							<div class="card-footer text-center p-0">
 								<!-- Button -->
-								<a href="#" class="btn btn-sm btn-primary-soft mb-0"></i>Learn More</a>
-							</div>
-						</div>
-					</div>
-					<!-- Product item END -->
-
-
-
-
-
-					<!-- Product item START -->
-					<div class="col-sm-6 col-md-4">
-						<div class="card border p-3 h-100">
-							
-		
-							<!-- Card body -->
-							<div class="card-body text-center p-3 px-0">
-								<!-- Badge and price -->
-								<br><br><br><br>
-								<!-- Title -->
-								<h5 class="card-title"><a href="shop-detail.html">Sprinkler Head Services</a></h5><br>
-								<h6 class="mb-0 text-success">Repair and replacement of broken, clogged, or misaligned sprinkler heads.
-                        </h6>
-							</div>
-		
-							<!-- Card footer -->
-							<div class="card-footer text-center p-0">
-								<!-- Button -->
-								<a href="#" class="btn btn-sm btn-primary-soft mb-0"></i>Learn More</a>
+								<a href="irrigation-leak-repair.html" class="btn btn-sm btn-primary-soft mb-0">Learn More</a>
 							</div>
 						</div>
 					</div>
@@ -496,25 +354,63 @@ Inner intro END -->
 
 
 
-				<!-- Product item START -->
+
+					<!-- Product item START -->
 					<div class="col-sm-6 col-md-4">
 						<div class="card border p-3 h-100">
-							
+							<div class="position-relative">
+								<!-- Image -->
+								<a href="sprinkler-head-services.html" class="position-relative z-index-9"><img class="card-img" src="assets/images/sprinkler-head-services.jpg" alt=""></a>
+								
+							</div>
 		
 							<!-- Card body -->
 							<div class="card-body text-center p-3 px-0">
-								<!-- Badge and price -->
-								<br><br><br><br>
+								
 								<!-- Title -->
-								<h5 class="card-title"><a href="shop-detail.html">Sprinkler Valve Repair</a></h5><br>
-								<h6 class="mb-0 text-success">Diagnose and repair faulty sprinkler valves affecting water flow and pressure.
-                         </h6>
+								<h5 class="card-title"><a href="sprinkler-system-services.html">Sprinkler Head Services</a></h5>
+								<h6 class="mb-0 text-success">Repair and replacement of broken, clogged, or misaligned sprinkler heads.</h6>
 							</div>
 		
 							<!-- Card footer -->
 							<div class="card-footer text-center p-0">
 								<!-- Button -->
-								<a href="#" class="btn btn-sm btn-primary-soft mb-0"></i>Learn More</a>
+								<a href="sprinkler-head-services.html" class="btn btn-sm btn-primary-soft mb-0">Learn More</a>
+							</div>
+						</div>
+					</div>
+					<!-- Product item END -->
+
+
+
+
+
+
+
+					<!-- Product item START -->
+					<div class="col-sm-6 col-md-4">
+						<div class="card border p-3 h-100">
+							<div class="position-relative">
+								<!-- Image -->
+								<a href="sprinkler-system-services.html" class="position-relative z-index-9"><img class="card-img" src="assets/images/sprinkler-heads.jpg" alt=""></a>
+								<!-- Overlay -->
+								<div class="card-img-overlay p-0">
+									<div> <span class="badge text-bg-success">New Arrival</span></div>
+								</div>
+							</div>
+		
+							<!-- Card body -->
+							<div class="card-body text-center p-3 px-0">
+								
+								<!-- Title -->
+								<h5 class="card-title"><a href="sprinkler-system-services.html">Sprinkler System Services</a></h5>
+								<h6 class="mb-0 text-success">Complete sprinkler system installation, repair, and maintenance for residential lawns.</h6>
+							</div>
+		
+							<!-- Card footer -->
+							<div class="card-footer text-center p-0">
+								<!-- Button -->
+								<a href="sprinkler-system-services.html" class="btn btn-sm btn-primary-soft mb-0">Learn More</a>
 							</div>
 						</div>
 					</div>
@@ -525,22 +421,24 @@ Inner intro END -->
 <!-- Product item START -->
 					<div class="col-sm-6 col-md-4">
 						<div class="card border p-3 h-100">
-							
+							<div class="position-relative">
+								<!-- Image -->
+								<a href="sprinkler-valve-services.html" class="position-relative z-index-9"><img class="card-img" src="assets/images/sprinkler-valve-services.jpg" alt="spriknler valve services"></a>
+								
+							</div>
 		
 							<!-- Card body -->
 							<div class="card-body text-center p-3 px-0">
-								<!-- Badge and price -->
-								<br><br><br><br>
+								
 								<!-- Title -->
-								<h5 class="card-title"><a href="shop-detail.html">Drip Irrigation Systems</a></h5><br>
-								<h6 class="mb-0 text-success">Water-efficient drip irrigation installation and repair for gardens and flower beds.
-                        </h6>
+								<h5 class="card-title"><a href="sprinkler-valve-services.html">Sprinkler Valve Repair</a></h5>
+								<h6 class="mb-0 text-success">Diagnose and repair faulty sprinkler valves affecting water flow and pressure.</h6>
 							</div>
 		
 							<!-- Card footer -->
 							<div class="card-footer text-center p-0">
 								<!-- Button -->
-								<a href="#" class="btn btn-sm btn-primary-soft mb-0"></i>Learn More</a>
+								<a href="sprinkler-valve-services.html" class="btn btn-sm btn-primary-soft mb-0">Learn More</a>
 							</div>
 						</div>
 					</div>
@@ -549,29 +447,27 @@ Inner intro END -->
 
 
 
-
-
-
-
-					<!-- Product item START -->
+<!-- Product item START -->
 					<div class="col-sm-6 col-md-4">
 						<div class="card border p-3 h-100">
-							
+							<div class="position-relative">
+								<!-- Image -->
+								<a href="lawn-installation-irrigation.html" class="position-relative z-index-9"><img class="card-img" src="assets/images/lawn-installation-irrigation.jpg" alt="lawn installation irrigation"></a>
+								
+							</div>
 		
 							<!-- Card body -->
 							<div class="card-body text-center p-3 px-0">
-								<!-- Badge and price -->
-								<br><br><br><br>
+								
 								<!-- Title -->
-								<h5 class="card-title"><a href="shop-detail.html">Irrigation Timer Services</a></h5><br>
-								<h6 class="mb-0 text-success">Installation, repair, and troubleshooting of irrigation timers and smart controllers.
-                        </h6>
+								<h5 class="card-title"><a href="lawn-installation-irrigation.html">Lawn Installation Irrigation</a></h5>
+								<h6 class="mb-0 text-success">Diagnose and repair faulty sprinkler valves affecting water flow and pressure.</h6>
 							</div>
 		
 							<!-- Card footer -->
 							<div class="card-footer text-center p-0">
 								<!-- Button -->
-								<a href="#" class="btn btn-sm btn-primary-soft mb-0"></i>Learn More</a>
+								<a href="lawn-installation-irrigation.html" class="btn btn-sm btn-primary-soft mb-0">Learn More</a>
 							</div>
 						</div>
 					</div>
@@ -581,28 +477,27 @@ Inner intro END -->
 
 
 
-
-
-
-					<!-- Product item START -->
+<!-- Product item START -->
 					<div class="col-sm-6 col-md-4">
 						<div class="card border p-3 h-100">
-							
+							<div class="position-relative">
+								<!-- Image -->
+								<a href="drip-irrigation-system.html" class="position-relative z-index-9"><img class="card-img" src="assets/images/drip-irrigation-systems.jpg" alt=""></a>
+								
+							</div>
 		
 							<!-- Card body -->
 							<div class="card-body text-center p-3 px-0">
-								<!-- Badge and price -->
-								<br><br><br><br>
+								
 								<!-- Title -->
-								<h5 class="card-title"><a href="shop-detail.html">Irrigation Leak Repair</a></h5><br>
-								<h6 class="mb-0 text-success">Detect and repair irrigation system leaks to prevent water waste and damage.
-                         </h6>
+								<h5 class="card-title"><a href="drip-irrigation-system.html">Drip Irrigation System</a></h5>
+								<h6 class="mb-0 text-success">Diagnose and repair faulty sprinkler valves affecting water flow and pressure.</h6>
 							</div>
 		
 							<!-- Card footer -->
 							<div class="card-footer text-center p-0">
 								<!-- Button -->
-								<a href="#" class="btn btn-sm btn-primary-soft mb-0"></i>Learn More</a>
+								<a href="drip-irrigation-system.html" class="btn btn-sm btn-primary-soft mb-0">Learn More</a>
 							</div>
 						</div>
 					</div>
@@ -613,30 +508,42 @@ Inner intro END -->
 
 
 
-
-					<!-- Product item START -->
+<!-- Product item START -->
 					<div class="col-sm-6 col-md-4">
 						<div class="card border p-3 h-100">
-							
+							<div class="position-relative">
+								<!-- Image -->
+								<a href="drought-resistant-irrigation.html" class="position-relative z-index-9"><img class="card-img" src="assets/images/drought-resistant-irrigation.jpg" alt="drought resistant irrigation"></a>
+								
+							</div>
 		
 							<!-- Card body -->
 							<div class="card-body text-center p-3 px-0">
-								<!-- Badge and price -->
-								<br><br><br><br>
+								
 								<!-- Title -->
-								<h5 class="card-title"><a href="shop-detail.html">Lawn Installation Irrigation</a></h5><br>
-								<h6 class="mb-0 text-success">New lawn installation with proper irrigation planning for long-term success.
-                       </h6>
+								<h5 class="card-title"><a href="drought-resistant-irrigation.html">Drought Resistant Irrigation</a></h5>
+								<h6 class="mb-0 text-success">Diagnose and repair faulty sprinkler valves affecting water flow and pressure.</h6>
 							</div>
 		
 							<!-- Card footer -->
 							<div class="card-footer text-center p-0">
 								<!-- Button -->
-								<a href="#" class="btn btn-sm btn-primary-soft mb-0"></i>Learn More</a>
+								<a href="drought-resistant-irrigation.html" class="btn btn-sm btn-primary-soft mb-0">Learn More</a>
 							</div>
 						</div>
 					</div>
 					<!-- Product item END -->
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -658,7 +565,7 @@ Inner intro END -->
         <p class="lead">
             Contact us today for professional service and a free estimate.
         </p>
-        <a href="/contact.html" class="btn btn-light btn-lg">
+        <a href="tel:9093199357" class="btn btn-light btn-lg">
             Get a Free Estimate
         </a>
     </div>
@@ -686,36 +593,13 @@ Inner intro END -->
 
 
 
-		
-
-					<!-- Pagination START -->
-					<div class="col-12">
-						<nav class="d-flex justify-content-center" aria-label="navigation">
-							<!-- Pagination 1 2 3  -->
-							<ul class="pagination pagination-bordered justify-content-center d-inline-block d-lg-flex">
-								<li class="page-item">
-									<a class="page-link" href="#">First</a>
-								</li>
-								<li class="page-item"><a class="page-link" href="#">1</a></li>
-								<li class="page-item active"><a class="page-link" href="#">2</a></li>
-								<li class="page-item disabled"><a class="page-link" href="#">..</a></li>
-								<li class="page-item"><a class="page-link" href="#">22</a></li>
-								<li class="page-item"><a class="page-link" href="#">23</a></li>
-								<li class="page-item">
-									<a class="page-link" href="#">Last</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-					<!-- Pagination END -->
-				</div>
-				<!-- Product END -->
-
-			</div>
-			<!-- Main part END -->
 		</div>
+</div>
+				
+
 	</div>
-</section>
+</section>			
+		
 <!-- =======================
 Main END -->
 
@@ -724,197 +608,105 @@ Main END -->
 
 <!-- =======================
 Footer START -->
-<footer class="bg-dark pt-5">
-	<div class="container">
-		<!-- About and Newsletter START -->
-		<div class="row pt-3 pb-4">
-			<div class="col-md-3">
-				<img src="assets/images/logo-footer.svg" alt="footer logo">
-			</div>
-			<div class="col-md-5">
-				<p class="text-muted">The next-generation blog, news, and magazine theme for you to start sharing your stories today! This Bootstrap 5 based theme is ideal for all types of sites that deliver the news.</p>
-			</div>
-			<div class="col-md-4">
-				<!-- Form -->
-				<form class="row row-cols-lg-auto g-2 align-items-center justify-content-end">
-					<div class="col-12">
-						<input type="email" class="form-control" placeholder="Enter your email address">
-					</div>
-					<div class="col-12">
-						<button type="submit" class="btn btn-primary m-0">Subscribe</button>
-					</div>
-					<div class="form-text mt-2">By subscribing you agree to our 
-						<a href="#" class="text-decoration-underline text-reset">Privacy Policy</a>
-					</div>
-				</form>
-			</div>
-		</div>
-		<!-- About and Newsletter END -->
+<footer >
+  <div class="container">
+    <hr>
 
-		<!-- Divider -->
-		<hr>
+    <!-- Widgets Row START -->
+    <div class="row pt-5">
 
-		<!-- Widgets START -->
-		<div class="row pt-5">
-			<!-- Footer Widget -->
-			<div class="col-md-6 col-lg-3 mb-4">
-				<h5 class="mb-4 text-white">Recent post</h5>
-				<!-- Item -->
-				<div class="mb-4 position-relative">
-					<div><a href="#" class="badge text-bg-danger mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Business</a></div>
-					<a href="post-single-3.html" class="btn-link text-white fw-normal">Up-coming business bloggers, you need to watch</a>
-					<ul class="nav nav-divider align-items-center small mt-2 text-muted">
-						<li class="nav-item position-relative">
-							<div class="nav-link">by <a href="#" class="stretched-link text-reset btn-link">Dennis</a>
-							</div>
-						</li>
-						<li class="nav-item">Apr 06, 2022</li>
-					</ul>
-				</div>
-				<!-- Item -->
-				<div class="mb-4 position-relative">
-					<div><a href="#" class="badge text-bg-info mb-2"><i class="fas fa-circle me-2 small fw-bold"></i>Marketing</a></div>
-					<a href="post-single-3.html" class="btn-link text-white fw-normal">How did we get here? The history of the business told through tweets</a>
-					<ul class="nav nav-divider align-items-center small mt-2 text-muted">
-						<li class="nav-item position-relative">
-							<div class="nav-link">by <a href="#" class="stretched-link text-reset btn-link">Larry</a>
-							</div>
-						</li>
-						<li class="nav-item">May 29, 2022</li>
-					</ul>
-				</div>
-			</div>
+      <!-- Column 1: Business Info -->
+      <div class="col-md-4 col-lg-4 mb-4">
+        <h3><strong>Valle Landscape Irrigation Services</strong></h3>
+        <p><a href="tel:9093199357" class="phone-number">909 319 9357</a></p>
+        <p>
+          <strong>Business Hours:</strong><br>
+          Monday: 7:00 AM – 8:00 PM<br>
+          Tuesday: 7:00 AM – 8:00 PM<br>
+          Wednesday: 7:00 AM – 8:00 PM<br>
+          Thursday: 7:00 AM – 8:00 PM<br>
+          Friday: 7:00 AM – 8:00 PM<br>
+          Saturday: 7:00 AM – 8:00 PM<br>
+          Sunday: 7:00 AM – 8:00 PM
+        </p>
+      </div>
 
-			<!-- Footer Widget -->
-			<div class="col-md-6 col-lg-3 mb-4">
-				<h5 class="mb-4 text-white">Navigation</h5>
-				<div class="row">
-					<div class="col-6">
-						<ul class="nav flex-column text-primary-hover">
-							<li class="nav-item"><a class="nav-link pt-0" href="#">Features</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Style Guide</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Contact us</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Get Theme</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Support</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Privacy Policy</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Newsletter</a></li>
-						</ul>
-					</div>
- 					<div class="col-6">
-						<ul class="nav flex-column text-primary-hover">
-							<li class="nav-item"><a class="nav-link pt-0" href="#">News</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Career <span class="badge text-bg-danger ms-2">2 Job</span></a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Technology</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Startups</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Gadgets</a></li>
-							<li class="nav-item"><a class="nav-link" href="#">Inspiration</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+      <!-- Column 2: Services List -->
+      <div class="col-md-4 col-lg-4 mb-4">
+        <h3><strong>Irrigation Services</strong></h3>
+        <ul class="list-unstyled">
+          <li>Irrigation Leak Repair</li>
+          <li>Sprinkler Head Services</li>
+          <li>Irrigation Timer Services</li>
+          <li>Sprinkler System Services</li>
+          <li>Lawn Installation & Irrigation</li>
+          <li>Drip Irrigation System</li>
+          <li>Drought Resistant Irrigation</li>
+        </ul>
+      </div>
 
-			<!-- Footer Widget -->
-			<div class="col-sm-6 col-lg-3 mb-4">
-				<h5 class="mb-4 text-white">Get Regular Updates</h5>
-				<ul class="nav flex-column text-primary-hover">
-					<li class="nav-item"><a class="nav-link pt-0" href="#"><i class="fab fa-whatsapp fa-fw me-2"></i>WhatsApp</a></li>
-					<li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube fa-fw me-2"></i>YouTube</a></li>
-					<li class="nav-item"><a class="nav-link" href="#"><i class="far fa-bell fa-fw me-2"></i>Website Notifications</a></li>
-					<li class="nav-item"><a class="nav-link" href="#"><i class="far fa-envelope fa-fw me-2"></i>Newsletters</a></li>
-					<li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-headphones-alt fa-fw me-2"></i>Podcasts</a></li>
-				</ul>
-			</div>
+      <!-- Column 3: Logo + About -->
+      <div class="col-md-4 col-lg-4 mb-4">
+        <img class="light-mode-item logo5" src="assets/images/Logo5.png" alt="logo"><br><br>
+        <p>
+          The next-generation Irrigation System Installation and Repair service that you can rely on for high-quality and efficient solutions! Ideal for homeowners and businesses needing professional irrigation setup, repairs, and maintenance.
+        </p>
+        <p>
+          We specialize in a range of services, including Irrigation Valve Installation, Timer Installation, System Repairs, and much more.
+        </p>
+        
+      </div>
 
-			<!-- Footer Widget -->
-			<div class="col-sm-6 col-lg-3 mb-4">
-				<h5 class="mb-4 text-white">Our Mobile App</h5>
-				<p class="text-muted">Download our App and get the latest Breaking News Alerts and latest headlines and daily articles near you.</p>
-				<div class="row g-2">
-					<div class="col">
-						<a href="#"><img class="w-100" src="assets/images/app-store.svg" alt="app-store"></a>
-					</div>
-					<div class="col">
-						<a href="#"><img class="w-100" src="assets/images/google-play.svg" alt="google-play"></a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- Widgets END -->
+    </div>
+    <!-- Widgets Row END -->
 
-		<!-- Hot topics START -->
-		<div class="row">
-			<h5 class="mb-2 text-white">Hot topics</h5>
-			<ul class="list-inline text-primary-hover lh-lg">
-				<li class="list-inline-item"><a href="#">Covid-19</a></li>
-				<li class="list-inline-item"><a href="#">Politics</a></li>
-				<li class="list-inline-item"><a href="#">Entertainment</a></li>
-				<li class="list-inline-item"><a href="#">Media</a></li>
-				<li class="list-inline-item"><a href="#">Royalist</a></li>
-				<li class="list-inline-item"><a href="#">World</a></li>
-				<li class="list-inline-item"><a href="#">Half Full</a></li>
-				<li class="list-inline-item"><a href="#">Scouted</a></li>
-				<li class="list-inline-item"><a href="#">Travel</a></li>
-				<li class="list-inline-item"><a href="#">Beast Inside</a></li>
-				<li class="list-inline-item"><a href="#">Crossword</a></li>
-				<li class="list-inline-item"><a href="#">Newsletters</a></li>
-				<li class="list-inline-item"><a href="#">Podcasts</a></li>
-				<li class="list-inline-item"><a href="#">Auction 2022</a></li>
-				<li class="list-inline-item"><a href="#">Protests</a></li>
-				<li class="list-inline-item"><a href="#">NewsCyber</a></li>
-				<li class="list-inline-item"><a href="#">Education</a></li>
-				<li class="list-inline-item"><a href="#">Sports</a></li>
-				<li class="list-inline-item"><a href="#">Tech And Auto</a></li>
-				<li class="list-inline-item"><a href="#">Opinion</a></li>
-				<li class="list-inline-item"><a href="#">Share Market</a></li>
-			</ul>
-		</div>
-		<!-- Hot topics END -->
-	</div>
+    <!-- Google Map -->
+        <iframe class="w-100 h-300 grayscale" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.857631358287!2d-117.75346438478321!3d34.05574698060002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c10c4641e99f%3A0x5a9ab1c25b9b7b1f!2s902%20E%204th%20St%2C%20Pomona%2C%20CA%2091766!5e0!3m2!1sen!2sus!4v1705222823056!5m2!1sen!2sus" 
+                height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
 
-	<!-- Footer copyright START -->
-	<div class="bg-dark-overlay-3 mt-5">
-		<div class="container">
-			<div class="row align-items-center justify-content-md-between py-4">
-				<div class="col-md-6">
-					<!-- Copyright -->
-					<div class="text-center text-md-start text-primary-hover text-muted">©2023 <a href="https://www.webestica.com/" class="text-reset btn-link" target="_blank">Webestica</a>. All rights reserved
-					</div>
-				</div>
-				<div class="col-md-6 d-sm-flex align-items-center justify-content-center justify-content-md-end">
-					<!-- Language switcher -->
-					<div class="dropup me-0 me-sm-3 mt-3 mt-md-0 text-center text-sm-end">
-						<a class="dropdown-toggle text-primary-hover" href="#" role="button" id="languageSwitcher" data-bs-toggle="dropdown" aria-expanded="false">
-							English Edition
-						</a>
-						<ul class="dropdown-menu min-w-auto" aria-labelledby="languageSwitcher">
-							<li><a class="dropdown-item" href="#">English</a></li>
-							<li><a class="dropdown-item" href="#">German </a></li>
-							<li><a class="dropdown-item" href="#">French</a></li>
-						</ul>
-					</div>
-					<!-- Links -->
-					<ul class="nav text-primary-hover text-center text-sm-end justify-content-center justify-content-center mt-3 mt-md-0">
-						<li class="nav-item"><a class="nav-link" href="#">Terms</a></li>
-						<li class="nav-item"><a class="nav-link" href="#">Privacy</a></li>
-						<li class="nav-item"><a class="nav-link pe-0" href="#">Cookies</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Footer copyright END -->
+
+		<!-- Back to top -->
+<div class="back-top"><i class="bi bi-arrow-up-short"></i></div>
+
+
+
+<p class="rights-reserved">
+© All rights reserved Valle Landscape Complete Lawn & Garden Irrigation Services | Pomona, CA | 909-319-9357
+</p>
+
+<!-- Footer Widget -->
+<div class="col-sm-6 col-lg-2 mb-4 hide">
+<h5 class="mb-4">Our Social handles</h5>
+<ul class="nav flex-column">
+<li class="nav-item"><a class="nav-link pt-0" href="#"><i class="fab fa-facebook-square fa-fw me-2 text-facebook"></i>Facebook</a></li>
+<li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-twitter-square fa-fw me-2 text-twitter"></i>Twitter</a></li>
+<li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-linkedin fa-fw me-2 text-linkedin"></i>Linkedin</a></li>
+<li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-youtube-square fa-fw me-2 text-youtube"></i>YouTube</a></li>
+</ul>
+</div>
+
+</div>
+<!-- Widgets END -->
+
+</div>
 </footer>
 <!-- =======================
 Footer END -->
 
-<!-- Back to top -->
-<div class="back-top"><i class="bi bi-arrow-up-short"></i></div>
+
 
 <!-- =======================
 JS libraries, plugins and custom scripts -->
 
 <!-- Bootstrap JS -->
 <script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="assets/vendor/tiny-slider/tiny-slider.js"></script>
+<script src="assets/vendor/sticky-js/sticky.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.js"></script>
 
 <!-- Template Functions -->
 <script src="assets/js/functions.js"></script>
