@@ -190,9 +190,7 @@ p.about-us-content.hero-p1 {
 p.about-us-content.hero-p1.text-white {
     color: #ffffff !important;  /* black text */
 }
-.card-body .card-title a {
-  color: #28a745 !important;
-}
+
 div.border.rounded.p-4.mb-5.diy {
   display: none;
 }
@@ -226,7 +224,9 @@ iframe.w-100.h-300.grayscale {
   p.rights-reserved {
     margin-bottom: 2rem;
   }
- 
+ h6.mb-0-text-success {
+  color: black;
+ }
 
 
 section.bg-primary.text-white.py-5 {
