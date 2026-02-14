@@ -2498,6 +2498,9 @@ progress {
 .rights-reserved {
   margin-top: 2rem;
 }
+div.landing-page.index {
+  min-height: 154vh;
+}
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
