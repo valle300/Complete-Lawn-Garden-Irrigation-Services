@@ -17,65 +17,7 @@
 	<meta name="author" content="Webestica.com">
 	<meta name="description" content="Complete Sprinkler System Services from Valle Landscape Irrigation Services. Installation, maintenance, and repairs for residential & commercial properties.">
 
-	<!-- Dark mode -->
-	<script>
-		const storedTheme = localStorage.getItem('theme')
- 
-		const getPreferredTheme = () => {
-			if (storedTheme) {
-				return storedTheme
-			}
-			return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-		}
-
-		const setTheme = function (theme) {
-			if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-				document.documentElement.setAttribute('data-bs-theme', 'dark')
-			} else {
-				document.documentElement.setAttribute('data-bs-theme', theme)
-			}
-		}
-
-		setTheme(getPreferredTheme())
-
-		window.addEventListener('DOMContentLoaded', () => {
-		    var el = document.querySelector('.theme-icon-active');
-			if(el != 'undefined' && el != null) {
-				const showActiveTheme = theme => {
-				const activeThemeIcon = document.querySelector('.theme-icon-active use')
-				const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
-				const svgOfActiveBtn = btnToActive.querySelector('.mode-switch use').getAttribute('href')
-
-				document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
-					element.classList.remove('active')
-				})
-
-				btnToActive.classList.add('active')
-				activeThemeIcon.setAttribute('href', svgOfActiveBtn)
-			}
-
-			window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-				if (storedTheme !== 'light' || storedTheme !== 'dark') {
-					setTheme(getPreferredTheme())
-				}
-			})
-
-			showActiveTheme(getPreferredTheme())
-
-			document.querySelectorAll('[data-bs-theme-value]')
-				.forEach(toggle => {
-					toggle.addEventListener('click', () => {
-						const theme = toggle.getAttribute('data-bs-theme-value')
-						localStorage.setItem('theme', theme)
-						setTheme(theme)
-						showActiveTheme(theme)
-					})
-				})
-
-			}
-		})
-		
-	</script>
+	
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="assets/images/logo5.png">
@@ -120,24 +62,7 @@ Header START -->
                     </div>
                     <!-- Font size accessibility END -->
 
-                    <!-- Dark mode options START -->
-                    <div class="nav-item dropdown mx-2">
-                        <button class="modeswitch" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" data-bs-display="static">
-                            <svg class="theme-icon-active"><use href="#"></use></svg>
-                        </button>
-                        <ul class="dropdown-menu min-w-auto dropdown-menu-end" aria-labelledby="bd-theme">
-                            <li>
-                                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">Light</button>
-                            </li>
-                            <li>
-                                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">Dark</button>
-                            </li>
-                            <li>
-                                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">Auto</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- Dark mode options END -->
+                    
 
                     <!-- Social icons -->
                     <ul class="nav">
