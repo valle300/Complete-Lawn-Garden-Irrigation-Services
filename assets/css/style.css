@@ -249,7 +249,34 @@ div.rounded-2.bg-dark-overlay-5.overflow-hidden.p-4.p-md-5.promo-banner {
   top: 80px; /* matches your data-margin-top */
   width: 100%; /* ensures it stays within its column */
 }
+/* Navbar background */
+.custom-navbar {
+}
 
+/* Nav link color */
+.custom-navbar .nav-link {
+    color: #000000 !important;
+}
+
+/* Hover color */
+.custom-navbar .nav-link:hover {
+    color: #28a745;
+}
+
+/* Dropdown menu background */
+.custom-navbar .dropdown-menu {
+    background-color: #111111;
+}
+
+/* Dropdown items */
+.custom-navbar .dropdown-item {
+    color: #ffffff;
+}
+
+.custom-navbar .dropdown-item:hover {
+    background-color: #28a745;
+    color: #ffffff;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
