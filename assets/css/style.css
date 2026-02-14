@@ -181,6 +181,15 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+.blackss {
+  color: #000000 !important;  /* black text */
+}
+p.about-us-content.hero-p1 {
+    color: #000000 !important;  /* black text */
+}
+p.about-us-content.hero-p1.text-white {
+    color: #ffffff !important;  /* black text */
+}
 .card-body .card-title a {
   color: #28a745 !important;
 }
