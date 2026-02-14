@@ -246,10 +246,24 @@ Inner intro START -->
 				</div>
         <p class="lead text-white text-center hero-p1">Where Green Meets Serenity</p>
 		<div class="p-container">
-			<a href="tel:9093199357">
-			  <button class="get-started-button">Call (909) 319-9357</button>
-			</a>
-		  </div>
+  <a href="tel:9093199357">
+    <button class="get-started-button" onclick="gtag('event', 'cta_click', {
+      'button_name': 'call_button',
+      'page_name': 'Home'
+    });">
+      Call (909) 319-9357
+    </button>
+  </a>
+</div>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
         
 			</div>
 			<div class="about-us-container">
@@ -278,7 +292,7 @@ Inner intro END -->
 <section>
 	<div class="container position-relative" data-sticky-container>
 		<div class="row">
-<div class="<div class="col-12 mb-5">">
+<div class="col-12 mb-5">
 <!-- Product START -->
 				<div class="row g-4">
 
