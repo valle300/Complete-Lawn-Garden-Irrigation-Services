@@ -534,20 +534,31 @@ Inner intro END -->
 
 
 
-					<!-- CTA -->
+<!-- CTA -->
 <section class="bg-primary text-white py-5">
     <div class="container text-center">
         <h2>Need Help With Your Irrigation System?</h2>
         <p class="lead">
             Contact us today for professional service and a free estimate.
         </p>
-        <a href="tel:9093199357" class="btn btn-light btn-lg">
+        <a href="tel:9093199357" class="btn btn-light btn-lg"
+           onclick="gtag('event', 'cta_estimate_click', {
+               'button_name': 'free_estimate_button',
+               'page_name': 'Home'
+           });">
             Get a Free Estimate
         </a>
     </div>
 </section>
 
-
+<!-- Google tag (gtag.js) if not already on page -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
 
 
 
