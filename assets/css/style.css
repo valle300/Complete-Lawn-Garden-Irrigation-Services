@@ -286,7 +286,15 @@ h1, h2 { font-family: 'Playfair Display', serif; }
 .s-color {
   color: #1a983e !important; 
 }
+.full-width-bg {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
 
+
+a.btn.btn-light.btn-lg {
+  margin-top: 2rem;
+}
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
